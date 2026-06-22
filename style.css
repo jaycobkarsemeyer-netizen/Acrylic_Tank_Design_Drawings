@@ -1,7 +1,16 @@
-body{font-family:Arial,sans-serif;margin:20px}
-.toolbar{margin-bottom:10px}
-button{padding:8px 12px;margin-right:6px}
-#canvas{border:1px solid #333;background-image:
+
+body{font-family:Arial;margin:0}
+.topbar{padding:10px;border-bottom:1px solid #ccc}
+.layout{display:flex;height:90vh}
+.left,.right{width:220px;padding:10px;border-right:1px solid #ccc}
+.right{border-right:none;border-left:1px solid #ccc}
+.center{flex:1;padding:10px}
+#canvas{
+border:1px solid #444;
+background-image:
 linear-gradient(#eee 1px,transparent 1px),
 linear-gradient(90deg,#eee 1px,transparent 1px);
-background-size:20px 20px}
+background-size:20px 20px;
+}
+button{margin:4px;padding:8px}
+input{width:100%;margin-bottom:8px}

@@ -2,18 +2,33 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Aquarium Lid Designer</title>
+<title>Aquarium Lid Designer V4</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Aquarium Lid Designer</h1>
-<div class="toolbar">
-<button id="rectBtn">Rectangle</button>
-<button id="circleBtn">Circle</button>
-<button id="deleteBtn">Delete Selected</button>
-<button id="saveBtn">Export SVG</button>
+<div class="topbar"><h2>Aquarium Lid Designer V4</h2></div>
+
+<div class="layout">
+  <div class="left">
+    <button id="rectTool">Rectangle</button>
+    <button id="circleTool">Circle</button>
+    <button id="deleteTool">Delete</button>
+  </div>
+
+  <div class="center">
+    <svg id="canvas" width="1000" height="700"></svg>
+  </div>
+
+  <div class="right">
+    <h3>Properties</h3>
+    <label>X</label><input id="xInput" type="number"><br>
+    <label>Y</label><input id="yInput" type="number"><br>
+    <label>Width</label><input id="wInput" type="number"><br>
+    <label>Height</label><input id="hInput" type="number"><br>
+    <button id="updateBtn">Update Shape</button>
+  </div>
 </div>
-<svg id="canvas" width="1200" height="700"></svg>
+
 <script src="script.js"></script>
 </body>
 </html>
