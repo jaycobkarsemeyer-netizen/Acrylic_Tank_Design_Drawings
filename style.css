@@ -1,0 +1,7 @@
+body{font-family:Arial,sans-serif;margin:20px}
+.toolbar{margin-bottom:10px}
+button{padding:8px 12px;margin-right:6px}
+#canvas{border:1px solid #333;background-image:
+linear-gradient(#eee 1px,transparent 1px),
+linear-gradient(90deg,#eee 1px,transparent 1px);
+background-size:20px 20px}
